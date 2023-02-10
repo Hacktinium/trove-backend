@@ -6,7 +6,7 @@ CREATE TABLE posts (
   title VARCHAR ( 50 ),
   thumbnail VARCHAR,
   summary VARCHAR,
-  date_posted DATE,
+  date_posted TIMESTAMP WITH TIME ZONE DEFAULT CURRENT_TIMESTAMP,
   url VARCHAR,
   tags TEXT[]
   );
@@ -26,30 +26,30 @@ VALUES (
     (
             'Curt Smith',
             'JavaScript For Beginners',
-            'thumbnail': 'https://static-cse.canva.com/blob/951430/1600w-wK95f3XNRaM.jpg',
-            'summary': ' POST Request Fom Node.js PostgreSQL',
-            'date_posted': '2022-10-20T23:00:00.000Z',
-            'url': 'https://www.youtube.com/watch?v=W6NZfCO5SIk&t=210s',
+            'https://static-cse.canva.com/blob/951430/1600w-wK95f3XNRaM.jpg',
+            'POST Request Fom Node.js PostgreSQL',
+            '2022-10-20T23:00:00.000Z',
+            'https://www.youtube.com/watch?v=W6NZfCO5SIk&t=210s',
             ARRAY ['JavaScript']
     ),
 
     (
-            'author': 'Kiane Gucher-Blackman',
-            'title': 'CSS Styling in React JS',
-            'thumbnail': 'https://static-cse.canva.com/blob/951430/1600w-wK95f3XNRaM.jpg',
-            'summary': 'Learn how to apply CSS Styles in React JS. There are several approaches to applying CSS you should be aware of when you learn ReactJS',
-            'date_posted': '2022-10-20T23:00:00.000Z',
-            'url': 'https://www.youtube.com/watch?v=RYDXbp7vmjc',
+            'Kiane Gucher-Blackman',
+            'CSS Styling in React JS',
+            'https://static-cse.canva.com/blob/951430/1600w-wK95f3XNRaM.jpg',
+            'Learn how to apply CSS Styles in React JS. There are several approaches to applying CSS you should be aware of when you learn ReactJS',
+            '2022-10-20T23:00:00.000Z',
+            'https://www.youtube.com/watch?v=RYDXbp7vmjc',
             ARRAY ['CSS','React', 'JavaSCript']
     ),
 
     (
-            'author': 'Steve Beecheno',
-            'title': ' Testing Node Server with SeperTest Jest',
-            'thumbnail': 'https://static-cse.canva.com/blob/951430/1600w-wK95f3XNRaM.jpg',
-            'summary': 'Learn how to test a node.js HTTP server using Jest and Supertest.',
-            'date_posted': '2022-10-20T23:00:00.000Z',
-            'url': 'https://www.youtube.com/watch?v=FKnzS_icp20',
+            'Steve Beecheno',
+            ' Testing Node Server with SeperTest Jest',
+            'https://static-cse.canva.com/blob/951430/1600w-wK95f3XNRaM.jpg',
+            'Learn how to test a node.js HTTP server using Jest and Supertest.',
+            '2022-10-20T23:00:00.000Z',
+            'https://www.youtube.com/watch?v=FKnzS_icp20',
             ARRAY [
                 'SuperTest',
                 'Jest'
