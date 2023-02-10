@@ -1,4 +1,4 @@
-***** This can be used to setup data in an exisiting database by sending post requests through an application such as postman once the SQL tables are setups *****
+// ***** This can be used to setup data in an exisiting database by sending post requests through an application such as postman once the SQL tables are setups *****
 
 {
             "author": "Curt Smith ",

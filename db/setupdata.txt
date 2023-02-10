@@ -57,12 +57,12 @@ VALUES (
     ),
 
     (
-            'author': 'Ryan Donaghue',
-            'title': 'Test Driven Devlopment Cypress Jest',
-            'thumbnail': 'https://static-cse.canva.com/blob/951430/1600w-wK95f3XNRaM.jpg',
-            'summary': 'Test-Driven Development (TDD) is a proven prevent bugs and improve the quality of your code - and it's fun! Learn the fundamentals of JavaScript testing in this beginner's tutorial. ',
-            'date_posted': '2022-10-20T23:00:00.000Z',
-            'url': 'https://www.youtube.com/watch?v=7N63cMKosIE',
+            'Ryan Donaghue',
+            'Test Driven Devlopment Cypress Jest',
+            'https://static-cse.canva.com/blob/951430/1600w-wK95f3XNRaM.jpg',
+            'Test-Driven Development (TDD) is a proven prevent bugs and improve the quality of your code - and it's fun! Learn the fundamentals of JavaScript testing in this beginner's tutorial. ',
+            ''2022-10-20T23:00:00.000Z',
+            'https://www.youtube.com/watch?v=7N63cMKosIE',
             ARRAY [
                 'Jest',
                 'Cypress'
@@ -70,12 +70,12 @@ VALUES (
          ),
 
     (
-            'author': 'Ash-Lee McKenna',
-            'title': 'Full Stack Course',
-            'thumbnail': 'https://static-cse.canva.com/blob/951430/1600w-wK95f3XNRaM.jpg',
-            'summary': 'Learn full-stack web development in this full course for beginners.',
-            'date_posted': '2022-10-20T23:00:00.000Z',
-            'url': 'https://www.youtube.com/watch?v=nu_pCVPKzTk',
+            'Ash-Lee McKenna',
+            'Full Stack Course',
+            'https://static-cse.canva.com/blob/951430/1600w-wK95f3XNRaM.jpg',
+            'Learn full-stack web development in this full course for beginners.',
+            '2022-10-20T23:00:00.000Z',
+            'https://www.youtube.com/watch?v=nu_pCVPKzTk',
             ARRAY [
                 'JavaScript',
                 'CSS',
@@ -84,24 +84,24 @@ VALUES (
         ),
 
     (
-            'author': 'Jason Bacon',
-            'title': 'Python For Beginners',
-            'thumbnail': 'https://static-cse.canva.com/blob/951430/1600w-wK95f3XNRaM.jpg',
-            'summary': 'Python tutorial for beginners show how to get started with Python quickly.',
-            'date_posted': '2022-10-20T23:00:00.000Z',
-            'url': 'https://www.youtube.com/watch?v=kqtD5dpn9C8&t=26s',
+            'Jason Bacon',
+            'Python For Beginners',
+            'https://static-cse.canva.com/blob/951430/1600w-wK95f3XNRaM.jpg',
+            'Python tutorial for beginners show how to get started with Python quickly.',
+            '2022-10-20T23:00:00.000Z',
+            'https://www.youtube.com/watch?v=kqtD5dpn9C8&t=26s',
             ARRAY [
                 'Python'
             ]
         ),
 
     (
-            'author': 'Elijah-Lee Hall',
-            'title': 'TypeScript Tutorial',
-            'thumbnail': 'https://static-cse.canva.com/blob/951430/1600w-wK95f3XNRaM.jpg',
-            'summary': 'TypeScript Tutorial for Beginners. Learn TypeScript to write better large-scale JavaScript apps.',
-            'date_posted': '2022-10-20T23:00:00.000Z',
-            'url': 'https://www.youtube.com/watch?v=d56mG7DezGs',
+            'Elijah-Lee Hall',
+            'TypeScript Tutorial',
+            'https://static-cse.canva.com/blob/951430/1600w-wK95f3XNRaM.jpg',
+            'TypeScript Tutorial for Beginners. Learn TypeScript to write better large-scale JavaScript apps.',
+            '2022-10-20T23:00:00.000Z',
+            'https://www.youtube.com/watch?v=d56mG7DezGs',
             ARRAY [
                 'Typescript',
                 'JavaScript'
@@ -109,12 +109,12 @@ VALUES (
         ),
     
 (
-            'author': 'Ariah-Lee Hall',
-            'title': 'Fundamentals of Next.js',
-            'thumbnail': 'https://static-cse.canva.com/blob/951430/1600w-wK95f3XNRaM.jpg',
-            'summary': 'Fundamentals of Next.js such as SSR & SSG, routing, data fetching, apis and more',
-            'date_posted': '2022-10-20T23:00:00.000Z',
-            'url': 'https://www.youtube.com/watch?v=mTz0GXj8NN0',
+            'Ariah-Lee Hall',
+            'Fundamentals of Next.js',
+            'https://static-cse.canva.com/blob/951430/1600w-wK95f3XNRaM.jpg',
+            'Fundamentals of Next.js such as SSR & SSG, routing, data fetching, apis and more',
+            '2022-10-20T23:00:00.000Z',
+            'https://www.youtube.com/watch?v=mTz0GXj8NN0',
             ARRAY [
                 'Next',
                 'React',
@@ -123,24 +123,24 @@ VALUES (
         ),
 
     (
-            'author': 'SOC',
-            'title': 'About us',
-            'thumbnail': 'https://static-cse.canva.com/blob/951430/1600w-wK95f3XNRaM.jpg',
-            'summary': 'About SOC',
-            'date_posted': '2022-10-20T23:00:00.000Z',
-            'url': 'https://www.schoolofcode.co.uk/about/',
+            'SOC',
+            'About us',
+            'https://static-cse.canva.com/blob/951430/1600w-wK95f3XNRaM.jpg',
+            'About SOC',
+            '2022-10-20T23:00:00.000Z',
+            'https://www.schoolofcode.co.uk/about/',
             ARRAY [
                 'JavaScript'
             ]
         ),
 
     (
-            'author': 'Jean Asus',
-            'title': 'FrameWork',
-            'thumbnail': 'https://static-cse.canva.com/blob/951430/1600w-wK95f3XNRaM.jpg',
-            'summary': 'Developing our new Systemic Design Framework',
-            'date_posted': '2022-10-20T23:00:00.000Z',
-            'url': 'https://medium.com/design-council/developing-our-new-systemic-design-framework-e0f74fe118f7',
+            'Jean Asus',
+            'FrameWork',
+            'https://static-cse.canva.com/blob/951430/1600w-wK95f3XNRaM.jpg',
+            'Developing our new Systemic Design Framework',
+            '2022-10-20T23:00:00.000Z',
+            'https://medium.com/design-council/developing-our-new-systemic-design-framework-e0f74fe118f7',
             ARRAY [
                 'React',
                 'Next',
