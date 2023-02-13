@@ -45,12 +45,15 @@ You need to manually setup your database but the SQL queries for these are provi
 
 ## API Reference
 
-| Request                 | Parameter       | Type     | Request Body                                                  | Description                                          |
-| :---------------------- | :-------------- | :------- | :------------------------------------------------------------ | ---------------------------------------------------- |
-| GET /api/posts          | none            | none     | none                                                          | Gets all posts                                       |
-| GET /api/posts          | `?search='tag'` | `string` | none                                                          | Gets all posts with a specific tag                   |
-| POST /api/posts         | none            | none     | `{author, title, thumbnail, summary, date_posted, url, tags}` | Creates a new post in the posts table and tags table |
-| DELETE /api/posts/${id} | `id`            | `string` | none                                                          | Deletes post and associated tags by post id          |
+### Deployed API url: [https://trove-backend.onrender.com/api](https://trove-backend.onrender.com/api)  
+ℹ️ Please allow 10-20 seconds for the deployed backend to 'wake up', as we are using a 'hobbyist' account on our deployment site.
+
+| Method | Endpoint            | Data Type | Description                             |
+|--------|---------------------|-----------|-----------------------------------------|
+| GET    | /posts              |           | Returns all posts                       |
+| GET    | /posts?search=[tag] | string    | Returns all posts with the specific tag |
+| POST   | /posts              |           | Creates a new post                      |
+| DELETE | /posts/:id          | number    | Deletes a post                          |
 
 ## **App Tool Box**
 
